@@ -15,10 +15,16 @@ window.onload = () => {
 
 let generadorexcusas = () => {
   let pronoun = ["Un", "El"];
-  let subject = ["cartero", "gato", "perro", "conductor", "portero"];
-  let action = ["tomo mi", "lanzo mi", "le grito a mi", "me robo", "mordio mi"];
-  let possetion = ["tarea", "zapato", "auto", "pie"];
-  let where = ["en la calle", "en mi casa", "en el camino a casa"];
+  let subject = ["estudiante", "perro", "amigo", "conductor", "vecino"];
+  let action = [
+    "perdió mi",
+    "dañó mi",
+    "escondió mi",
+    "rompió mi",
+    "manchó mi"
+  ];
+  let possetion = ["libro", "teléfono", "llave", "computadora"];
+  let where = ["en la escuela", "en mi casa", "en el trabajo", "en la calle"];
 
   let proIndx = Math.floor(Math.random() * pronoun.length);
   let subjtIndx = Math.floor(Math.random() * subject.length);
